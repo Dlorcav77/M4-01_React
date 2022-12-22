@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(73, 73, 73);
+    color: #ccc;
+    width: 1200px; 
+    margin: auto; 
+}
+ .galeria{
+    display: flex;
+    background-color: gray;
+} 
