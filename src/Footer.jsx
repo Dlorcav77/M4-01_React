@@ -1,6 +1,13 @@
 const Footer = ({title}) => {
     return (
-        <h1 className="text-center bg-dark p-2">{title}</h1>
+        <>
+            <p className="text-center bg-dark p-2">{title}
+                <div class="alert alert-primary w-3" role="alert">
+                    Galeria de Imagenes
+                </div>
+            </p>
+            
+        </>
     );
 };
 export default Footer;
